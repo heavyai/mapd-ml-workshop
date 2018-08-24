@@ -1,0 +1,14 @@
+name: py36_test
+channels:
+- conda-forge
+- pymapd/label/dev
+- defaults
+dependencies:
+- python=3.6.*
+- pandas
+- pymapd
+- matplotlib
+- pip:
+  - scikit-learn>=0.19.1
+  - jupyter
+  - xgboost
