@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     build-essential \
     libopenblas-dev \
+    libopenmpi-dev \
     bzip2 && \
     apt-get remove --purge -y && \
     rm -rf /var/lib/apt/lists/*
