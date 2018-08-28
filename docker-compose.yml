@@ -16,6 +16,4 @@ services:
       - 8888:8888
     links:
       - mapd-core
-    volumes:
-      - ./notebooks:/mapd-ml-cpu/examples
     ipc: host
